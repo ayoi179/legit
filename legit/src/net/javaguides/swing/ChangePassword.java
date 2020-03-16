@@ -73,7 +73,7 @@ public class ChangePassword extends JFrame {
                     System.out.println("update password name " + name);
                     System.out.println("update password");
 
-                    /* PLEASE INPUT YOUR MYSQL NAME AND PASSWORD */
+                    /* PLEASE INPUT YOUR MYSQL NAME AND PASSWORD. */
                     Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/legit?useTimezone=true&serverTimezone=UTC",
                         "root", "1234567890");
 
