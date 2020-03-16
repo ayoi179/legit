@@ -99,7 +99,7 @@ public class UserLogin extends JFrame {
                 String password = passwordField.getText();
                 try {
                 	
-                	/* PLEASE INPUT YOUR MYSQL NAME AND PASSWORD. */
+                	/* PLEASE INPUT YOUR MYSQL NAME AND PASSWORD */
                     Connection connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/legit?useTimezone=true&serverTimezone=UTC",
                         "root", "1234567890");
 
